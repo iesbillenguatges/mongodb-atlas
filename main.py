@@ -24,7 +24,7 @@ app.add_middleware(
 )
 
 # Connectar a MongoDB Atlas
-client = MongoClient("mongodb+srv://iesbiseguretat:becerola@cluster0.dsfllf6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb+srv://iesbiseguretat:???????@cluster0.dsfllf6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client.sample_mflix
 comments_col = db.comments
 
