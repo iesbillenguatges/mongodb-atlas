@@ -6,5 +6,5 @@ El projecte té dues parts:
         ◦ Frontend: HTML + JavaScript. 
         ◦ Backend: FastAPI + MongoDB Atlas
 ## Backend: FastAPI i MongoDB
-* Què és  FastAPI?
+#### Què és  FastAPI?
 És un framework web modern i altament eficient per a construir APIs amb Python. Està pensat per ser ràpid, fàcil d'utilitzar i molt potent, especialment per crear serveis web tipus RESTful APIs. Una RESTful API (Application Programming Interface) és un conjunt de regles per dissenyar serveis web simples, escalables i fàcils d’utilitzar.
