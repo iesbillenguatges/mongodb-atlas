@@ -1,3 +1,5 @@
+from fastapi.staticfiles import StaticFiles
+app.mount("/", StaticFiles(directory="static", html=True), name="static")
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List
