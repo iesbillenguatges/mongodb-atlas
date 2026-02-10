@@ -1,11 +1,11 @@
 COMANDES
 --------
-$ cd atlas
-$ sudo apt install python3.12-venv pip -y
-$ python3.12 -m venv env
-$ source env/bin/activate
-$ pip install certifi
-$ pip install fastapi uvicorn pymongo
-$ uvicorn main:app --reload
+cd mongodb-atlas
+sudo apt install python3.12-venv pip -y
+python3.12 -m venv env
+source env/bin/activate
+pip install certifi
+pip install fastapi uvicorn pymongo
+uvicorn main:app --reload
 
 
