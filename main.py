@@ -30,7 +30,7 @@ import certifi
 from pymongo import MongoClient
 # Connexió a MongoDB Atlas
 client = MongoClient(
-    "mongodb+srv://iesbiseguretat:1234@cluster0.dsfllf6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "mongodb+srv://iesbiseguretat:123... COMPLETA ...",
     tlsCAFile=certifi.where()
 )
 
